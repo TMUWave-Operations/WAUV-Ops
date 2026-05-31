@@ -185,3 +185,5 @@ https://github.com/TMU-Wave/bluesim
 https://github.com/TMU-Wave/TMUWaveSim
 
 https://github.com/vortexntnu/vortex-auv
+
+https://github.com/sonia-auv
