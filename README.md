@@ -159,7 +159,7 @@ QGroundControl should be opened separately on Windows.
   
 ArduPilot / ArduSub SITL runs in a separate Docker container under docker/ardupilot.
 
-QGroundControl remains installed separately on Windows.
+QGroundControl is installed separately on Windows.
 
 # Important Notes
 
