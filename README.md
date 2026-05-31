@@ -168,7 +168,7 @@ QGroundControl is installed separately on Windows.
 - Commit frequently with clear commit messages
 - Avoid modifying unrelated files
 
-# Open-source AUV/underwater robotics repos + extra resources:
+# Open-source Underwater robotics repos + extra resources:
 
 https://github.com/clydemcqueen/orca4
 
