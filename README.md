@@ -56,6 +56,20 @@ Ctrl + Shift + P
 
 Reopen in container
 
+Here the developement container will build automatically (might take up to 20 minutes)
+
+---
+
+# Viewing Containers in Docker Desktop
+
+## Open Docker Desktop
+
+You should see the development container after opening the repository in VS Code.
+
+The ArduPilot SITL container will appear when running:
+
+docker compose run --rm ardupilot-sitl
+
 ---
 
 # Workflow
@@ -96,7 +110,7 @@ git commit -m "Added OpenCV gate detection script"
 
 ## 4. Push Changes to GitHub
 
-git push
+git push -u origin branch-name
 
 ## Create Pull Request
 
@@ -109,6 +123,23 @@ The main branch is protected.
 
 All code changes should be developed on feature branches and submitted through Pull Requests.
 
+---
+
+# ArduPilot Simulation
+
+ArduPilot is not installed directly on team members' computers.
+
+ArduPilot and ArduSub SITL are installed inside a dedicated Docker container and remain separate from the repository source code.
+
+To launch SITL:
+
+docker compose run --rm ardupilot-sitl
+
+Then inside the container:
+
+sim_vehicle.py -v ArduSub
+
+QGroundControl should be opened separately on Windows.
 
 ---
 
